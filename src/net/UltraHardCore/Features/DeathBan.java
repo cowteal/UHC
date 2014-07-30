@@ -13,7 +13,7 @@ public class DeathBan implements Listener {
   @EventHandler
   public void onPlayerDeath(PlayerDeathEvent event){
   
-  event.getPlayer().kickPlayer(prefix + ChatColor.AQUA + "You Have Been Defeated!");
-  Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "ban " + player.getName() + prefix + ChatColor.AQUA + "You Have Been Defeated!");
+  event.getPlayer().kickPlayer(prefix + ChatColor.AQUA + "You Have Been Defeated!"); // Change to "(what killed them) killed you ! or something along those lines
+  Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "ban " + player.getName() + prefix + ChatColor.AQUA + "You Have Been Defeated!"); // Change to "You have been defeated by (how they died)" or something along those lines. Please include how they died in either ban or kick
   }
 }
