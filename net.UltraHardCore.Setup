@@ -1,0 +1,22 @@
+package net.UltraHardCore.Setup;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Class_Startup extends JavaPlugin  {
+	
+	public String getAuthor() {
+		return "CrazymanJR,coldguy101 & darkzonex44";
+	}
+ 
+	
+	 @Override
+	public void onEnable() {
+	   System.out.println("[UHC] Developed by " + getAuthor());
+	    /*
+	     * Config & More Stuff here!
+	     */
+	}
+	  
+	
+	 
+}
