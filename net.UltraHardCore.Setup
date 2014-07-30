@@ -13,8 +13,18 @@ public class Class_Startup extends JavaPlugin  {
 	    /*
 	     * Config & More Stuff here!
 	     */
+	     register();
+	     executecommands();
 	}
 	  
-	
+	private void register() {
+	  getServer().getPluginManager().registerEvents(new Events(), this);
+	}
 	 
+	 
+	 private void executecommands() {
+	   /*
+	    Register Commands
+	    */
+	 }
 }
