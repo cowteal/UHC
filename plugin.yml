@@ -1,0 +1,6 @@
+name: UHC
+main: net.UltraHardCore.Class_Setup
+authors: [CrazymanJR, darkzonex44, coldguy101, cowteal]
+description: UHC Plugin
+
+commands:
