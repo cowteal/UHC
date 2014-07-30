@@ -16,7 +16,7 @@ public class Result implements Listener {
 			 e.setKickMessage(ChatColor.AQUA + "[" + ChatColor.GOLD + "UHC" + ChatColor.AQUA + "] " + ChatColor.WHITE + "You are not whitelisted in this Event!");
 		 if(p.isBanned()) {
 			  e.setResult(org.bukkit.event.player.PlayerLoginEvent.Result.KICK_BANNED);
-			   e.setKickMessage(ChatColor.AQUA + "[" + ChatColor.GOLD + "UHC" + ChatColor.AQUA + "] " + ChatColor.WHITE + " You have been Eliminated!");
+			   e.setKickMessage(ChatColor.AQUA + "[" + ChatColor.GOLD + "UHC" + ChatColor.AQUA + "] " + ChatColor.WHITE + " You have been Defeated!");
 		 }
 			 
 			 
